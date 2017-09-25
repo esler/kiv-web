@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset>
+    <file>src</file>
+    <file>tests</file>
+    <rule ref="Generic.Commenting"/>
+    <rule ref="PEAR.Commenting"/>
+    <rule ref="PSR2"/>
+</ruleset>
