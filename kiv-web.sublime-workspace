@@ -1,0 +1,2779 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"preg_re",
+				"preg_replace_callback"
+			],
+			[
+				"pregrepl",
+				"preg_replace_callback"
+			],
+			[
+				"tri",
+				"trigger_error"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"_",
+				"_sshkit"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"erro",
+				"error_log"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"re",
+				"redis"
+			],
+			[
+				"mono",
+				"mongo"
+			],
+			[
+				"mon",
+				"mongodb"
+			],
+			[
+				"redis",
+				"redis-sentinel"
+			],
+			[
+				"mongo",
+				"mongorestore"
+			],
+			[
+				"check",
+				"checkstyle"
+			],
+			[
+				"$",
+				"$DOCUMENT_ROOT"
+			],
+			[
+				"docker",
+				"docker-compose"
+			],
+			[
+				"Re",
+				"RewriteRule"
+			],
+			[
+				"Rew",
+				"RewriteCond"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"Cac",
+				"CacheControl"
+			],
+			[
+				"res",
+				"resources"
+			],
+			[
+				"File",
+				"Files"
+			],
+			[
+				"gra",
+				"granted"
+			],
+			[
+				"F",
+				"Files"
+			],
+			[
+				"RE",
+				"REQUEST_URI"
+			],
+			[
+				"Cu",
+				"CUSTOMER_ID"
+			],
+			[
+				"R",
+				"RewriteRule"
+			],
+			[
+				"bac",
+				"backbone"
+			],
+			[
+				"back",
+				"backbone-lib"
+			],
+			[
+				"def",
+				"DefineLibrary"
+			],
+			[
+				"tmp",
+				"tmpfs"
+			],
+			[
+				"mod",
+				"modsecurity-$"
+			],
+			[
+				"no",
+				"no-cache"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"$Ke",
+				"$keys"
+			],
+			[
+				"$ke",
+				"$key"
+			],
+			[
+				"Con",
+				"ConsoleLogger"
+			],
+			[
+				"pregma",
+				"preg_match"
+			],
+			[
+				"In",
+				"InputOption"
+			],
+			[
+				"@re",
+				"@return"
+			],
+			[
+				"@de",
+				"@deprecated"
+			],
+			[
+				"custom",
+				"customerId"
+			],
+			[
+				"envi",
+				"environment"
+			],
+			[
+				"assetarray",
+				"assertArrayNotHasKey"
+			],
+			[
+				"getdefine",
+				"get_defined_vars"
+			],
+			[
+				"Var",
+				"var_dump"
+			],
+			[
+				"doc",
+				"docroot"
+			],
+			[
+				"$pro",
+				"$proto"
+			],
+			[
+				"Abs",
+				"AbstractCache"
+			],
+			[
+				"cus",
+				"customer"
+			],
+			[
+				"IW",
+				"IW_DOCROOT"
+			],
+			[
+				"@",
+				"@params"
+			],
+			[
+				"memo",
+				"memory_get_peak_usage"
+			],
+			[
+				"$mi",
+				"$middleware"
+			],
+			[
+				"middle",
+				"middleware"
+			],
+			[
+				"CODE",
+				"ERROR_CODES"
+			],
+			[
+				"@pa",
+				"@param"
+			],
+			[
+				"insta",
+				"isInstanceOf"
+			],
+			[
+				"iw",
+				"iw_cs_ignore_end\tCS Ignore end"
+			],
+			[
+				"@a",
+				"@author"
+			],
+			[
+				"phpunit",
+				"PHPUnit_Framework_TestCase"
+			],
+			[
+				"service",
+				"service-a"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"dis",
+				"discovery"
+			],
+			[
+				"regis",
+				"register"
+			],
+			[
+				"Authe",
+				"Authenticate"
+			],
+			[
+				"$re",
+				"$response"
+			],
+			[
+				"$cus",
+				"$customer"
+			],
+			[
+				"cust",
+				"customers"
+			],
+			[
+				"$c",
+				"$configA"
+			],
+			[
+				"$con",
+				"$configB"
+			],
+			[
+				"expecex",
+				"expectException"
+			],
+			[
+				"my_se",
+				"my_service2"
+			],
+			[
+				"$s",
+				"$this"
+			],
+			[
+				"$di",
+				"$discovery"
+			],
+			[
+				"Au",
+				"Authentication"
+			],
+			[
+				"Authen",
+				"authentication"
+			],
+			[
+				"wit",
+				"withProperty"
+			],
+			[
+				"getc",
+				"get_class"
+			],
+			[
+				"result",
+				"resultId"
+			],
+			[
+				"__",
+				"__unwrap"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"getcla",
+				"get_class_vars"
+			],
+			[
+				"arrakye",
+				"array_keys"
+			],
+			[
+				"$pla",
+				"$placeholders"
+			],
+			[
+				"_pa",
+				"_placeholderToString"
+			],
+			[
+				"$pa",
+				"$path"
+			],
+			[
+				"arra_key",
+				"array_key_exists"
+			],
+			[
+				"$res",
+				"$httpResponse"
+			],
+			[
+				"E",
+				"Envelope"
+			],
+			[
+				"TYP",
+				"TYPE_RESULT_ID"
+			],
+			[
+				"Handle",
+				"HandlerStack"
+			],
+			[
+				"Mock",
+				"MockHttpPromise"
+			],
+			[
+				"getSta",
+				"getStatusCode"
+			],
+			[
+				"cre",
+				"createHttpRequest"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"wa",
+				"waitForResponse"
+			],
+			[
+				"Htt",
+				"HttpClient"
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"Uri",
+				"UriInterface"
+			],
+			[
+				"Pro",
+				"Promise"
+			],
+			[
+				"Promise",
+				"PromiseInterface"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"cal",
+				"callable"
+			],
+			[
+				"param",
+				"param1"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"pre_ma",
+				"preg_match"
+			],
+			[
+				"getC",
+				"getClient"
+			],
+			[
+				"se",
+				"serialize"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"s",
+				"schema"
+			],
+			[
+				"dfa",
+				"default"
+			],
+			[
+				"ss",
+				"ssh"
+			],
+			[
+				"ssh",
+				"ssh-agent"
+			],
+			[
+				"demo",
+				"demo-analyst"
+			],
+			[
+				"ins",
+				"installed"
+			],
+			[
+				"par",
+				"parsed"
+			],
+			[
+				"ya",
+				"yaml"
+			],
+			[
+				"lo",
+				"load_file"
+			],
+			[
+				"yaml",
+				"yaml_file"
+			],
+			[
+				"rm",
+				"rmt_file"
+			],
+			[
+				"IW_COre",
+				"IW_Core_Config"
+			],
+			[
+				"Sym",
+				"SymfonyYaml"
+			],
+			[
+				"gete",
+				"getenv"
+			],
+			[
+				"$im",
+				"$imageUrl"
+			],
+			[
+				"$log",
+				"$logoSrc"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "html/index.php",
+			"settings":
+			{
+				"buffer_size": 1120,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "composer.json",
+			"settings":
+			{
+				"buffer_size": 541,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".dockerignore",
+			"settings":
+			{
+				"buffer_size": 25,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"file": "/iw/workspace/esler/test/http-server.php",
+			"file_size": 805,
+			"file_write_time": 131508442560000000,
+			"settings":
+			{
+				"buffer_size": 22,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\nnamespace Esler\\KivWeb;\n\nuse Esler\\KivWeb\\Utils\\Immutable;\n\nclass Request\n{\n    use Immutable;\n\n    private $method;\n    private $params = [];\n    private $path;\n\n    public function __construct() {\n        $this->method = $_SERVER['REQUEST_METHOD'];\n        $this->path = $_SERVER['REQUEST_URI'];\n        $this->params = $_REQUEST;\n    }\n\n    public function getMethod(): string\n    {\n        return $this->method;\n    }\n\n    public function getParam(string $param, $default=null) {\n        return $this->params[$param] ?? $default;\n    }\n\n\n    public function withMethod(string $method): Request {\n        return $this->withProperty('method', $method);\n    }\n\n    public function withParam(string $param, $value): Request {\n        $new = clone $this;\n        $new->params[$param] = $value;\n        return $this;\n    }\n\n    public function getPath(): string\n    {\n        return $this->path;\n    }\n}\n",
+			"file": "src/KivWeb/Request.php",
+			"file_size": 1091,
+			"file_write_time": 131519230470000000,
+			"settings":
+			{
+				"buffer_size": 908,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Dockerfile",
+			"settings":
+			{
+				"buffer_size": 279,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "phpcs.xml",
+			"settings":
+			{
+				"buffer_size": 214,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\nnamespace Esler\\KivWeb;\n\n/**\n * This class is responsible for routing incoming requests\n */\nclass Router\n{\n\n    private $routes = [];\n\n    public function addRoute(string $mapping, callable $handler): void\n    {\n        $this->routes[] = [$mapping, $handler];\n    }\n\n    public function dispatch(bool $enableMapping): void\n    {\n        $request = new Request;\n\n        foreach ($this->routes as list($mapping, $handler)) {\n            if ($enableMapping) {\n                $defaults = [];\n\n                $pattern = '#^' . preg_replace_callback('/:(\\w+)(?:~(\\w+))?/i', function ($matches) {\n                    list(, $default, $property) = $matches + [null, null, null];\n\n                    $pattern = '(?<' . $matches[1] . '>[^/]+)';\n\n                    if (isset($matches[2])) {\n                        $default[$matches[1]] = $matches[2];\n                        $pattern = '?' . $pattern . '?';\n                    }\n\n                    return $pattern;\n                }, $mapping) . '$#';\n\n                if (preg_match($pattern, $request->getUri()))\n                echo $pattern . PHP_EOL;\n            }\n        }\n    }\n}\n",
+			"file": "src/KivWeb/Router.php",
+			"file_size": 1122,
+			"file_write_time": 131520029140000000,
+			"settings":
+			{
+				"buffer_size": 1143,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 89.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gett",
+				"Generate Getter for ..."
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"comm",
+				"SVN: (File) Commit"
+			],
+			[
+				"diff",
+				"SVN: (File) Diff"
+			],
+			[
+				"reve",
+				"SVN: (File) Revert"
+			],
+			[
+				"move",
+				"SVN: (File) Move…"
+			],
+			[
+				"commi",
+				"SVN: (File) Commit"
+			],
+			[
+				"yaml",
+				"Pretty YAML: Reformat (Pretty Print) YAML"
+			],
+			[
+				"cop",
+				"File: Copy Path From Project"
+			],
+			[
+				"log",
+				"SVN: (File) Log"
+			],
+			[
+				"blma",
+				"SVN: (File) Blame"
+			],
+			[
+				"update",
+				"SVN: Update"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"mo",
+				"SVN: (File) Move…"
+			],
+			[
+				"revert",
+				"SVN: (File) Revert"
+			],
+			[
+				"blame",
+				"SVN: (File) Blame"
+			],
+			[
+				"reso",
+				"SVN: (File) Resolve, Interactive…"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"dle",
+				"SVN: (File) Delete"
+			],
+			[
+				"bach",
+				"Set Syntax: Batch File"
+			],
+			[
+				"delete",
+				"SVN: (File) Delete"
+			],
+			[
+				"mvoe",
+				"SVN: (File) Move…"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"dp",
+				"File: Duplicate"
+			],
+			[
+				"del",
+				"SVN: (File) Delete"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"apa",
+				"Set Syntax: Apache Conf"
+			],
+			[
+				"nre",
+				"File: New File Relative to Current View"
+			],
+			[
+				"ini",
+				"Set Syntax: INI"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"togg",
+				"View: Toggle Side Bar"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"xml",
+				"Snippet: XML Processing Instruction"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"gitcomm",
+				"Git: Commit"
+			],
+			[
+				"dete",
+				"File: Delete"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"renae",
+				"File: Rename"
+			],
+			[
+				"upda",
+				"SVN: (File) Update"
+			],
+			[
+				"rever",
+				"SVN: (File) Revert"
+			],
+			[
+				"JSON",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"dlee",
+				"File: Delete"
+			],
+			[
+				"co",
+				"File: Copy Path"
+			],
+			[
+				"dif",
+				"SVN: (File) Diff"
+			],
+			[
+				"udpa",
+				"SVN: (File) Update"
+			],
+			[
+				"up",
+				"SVN: (File) Update"
+			],
+			[
+				"add",
+				"SVN: (File) Add"
+			],
+			[
+				"balme",
+				"SVN: (File) Blame"
+			],
+			[
+				"Log",
+				"SVN: (File) Log"
+			],
+			[
+				"info",
+				"SVN: (File) Info"
+			],
+			[
+				"blmae",
+				"SVN: (File) Blame"
+			],
+			[
+				"renme",
+				"File: Rename"
+			],
+			[
+				"cpo",
+				"File: Copy Name"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"hmtl",
+				"HTMLBeautify"
+			],
+			[
+				"COP",
+				"File: Copy Path"
+			],
+			[
+				"copy",
+				"File: Copy Name"
+			],
+			[
+				"sta",
+				"SVN: Status"
+			],
+			[
+				"COMM",
+				"SVN: (File) Commit"
+			],
+			[
+				"renaem",
+				"File: Rename"
+			],
+			[
+				"Dupl",
+				"File: Duplicate"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"setter",
+				"PHP: Generate Setters"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ya",
+				"Set Syntax: YAML"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"toggle",
+				"View: Toggle Side Bar"
+			],
+			[
+				"lo",
+				"SVN: (File) Log"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"rna",
+				"File: Rename"
+			],
+			[
+				"resol",
+				"SVN: (File) Resolve, Interactive…"
+			],
+			[
+				"bla",
+				"SVN: (File) Blame"
+			],
+			[
+				"blam",
+				"SVN: (File) Blame"
+			],
+			[
+				"ad",
+				"SVN: (File) Add"
+			],
+			[
+				"getter",
+				"Generate Getter for ..."
+			],
+			[
+				"igno",
+				"SVN: (File) Ignore"
+			],
+			[
+				"coppath",
+				"File: Copy Path From Project"
+			],
+			[
+				"ena",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"enab",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"disa",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"view",
+				"File: New View into File"
+			],
+			[
+				"to",
+				"View: Toggle Side Bar"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"REVE",
+				"SVN: (File) Revert"
+			],
+			[
+				"",
+				"File: Copy Name"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"al",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"doc",
+				"Snippet: Start Docblock"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insatll",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import yaml",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/iw/workspace/esler/kiv-web",
+		"/iw/workspace/esler/kiv-web/src",
+		"/iw/workspace/esler/kiv-web/src/KivWeb",
+		"/iw/workspace/esler/kiv-web/vendor"
+	],
+	"file_history":
+	[
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Uri.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Utils/Immutable.php",
+		"/iw/workspace/esler/kiv-web/composer.json",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506353358/SVN",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506345465/SVN",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506343429/SVN",
+		"/iw/workspace/00886/portal/bin/impl/IW/Bin/Migration/20150826084000MigrateWorkflowEzcNodes.php",
+		"/iw/workspace/00886/scm-sshkit/lib/iw/helper/file.rb",
+		"/iw/workspace/merge/scm-sshkit/config/vagrant.conf.rb",
+		"/iw/workspace/00886/init",
+		"/iw/workspace/00886/scm-sshkit/config/conf.rb",
+		"/iw/workspace/00886/scm-sshkit/tasks/deploy/application.rake",
+		"/iw/workspace/00886/portal_test/unit/core/impl/IW/Core/ModeMan/fixtures_mongo_profile.json",
+		"/iw/workspace/00886/scm-sshkit/config/nicks.conf.rb",
+		"/iw/workspace/00886/docker-compose.jenkins.yml",
+		"/iw/workspace/00886/portal_test/unit/core/impl/IW/Core/Attribute/Entity/UserAuthTest.php",
+		"/iw/workspace/00886/portal_test/unit/user/impl/IW/User/Field/ProfileImageServiceAuthTest.php",
+		"/iw/workspace/00886/portal/remoteapi/impl/IW/Remoteapi/Rest/Helper/ModemanInstanceSearch.php",
+		"/iw/workspace/00886/scm-sshkit/TODOS",
+		"/iw/workspace/00886/portal/system/impl/IW/System/Debug.php",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Bootstrap/Helper.php",
+		"/iw/workspace/00886/composer.json",
+		"/iw/workspace/00886/phpunit.xml",
+		"/iw/workspace/00886/scm-sshkit/lib/iw/env.rb",
+		"/iw/workspace/00886/scm-sshkit/config/local.conf.rb",
+		"/iw/workspace/00886/application/include/search.php",
+		"/iw/workspace/00886/custom/demo-analyst/config/config_data/development/database.yaml.php",
+		"/iw/workspace/00886/application/include/ClassLib/deepLinks.inc",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Crypt/LibsodiumWrapper.php",
+		"/iw/workspace/00886/portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/ProcessDataTest.php",
+		"/iw/workspace/00886/portal_test/unit/video/impl/IW/Video/Core/Validator/VideoTest.php",
+		"/iw/workspace/00886/docker-compose.yml",
+		"/iw/workspace/00886/portal_test/unit/user/impl/IW/User/Field/ProfileImageBusinessAssistantAuthTest.php",
+		"/iw/workspace/00886/portal_test/unit/core/impl/IW/Core/ModeMan/ModelManagerTest.php",
+		"/iw/workspace/00886/portal_test/unit/core/impl/IW/Core/ModeMan/fixtures_mongo.json",
+		"/iw/workspace/00886/portal_test/unit/remoteapi/impl/IW/Remoteapi/Rest/Helper/ModemanInstanceSearchTest.php",
+		"/iw/workspace/00886/portal_test/unit/core/impl/IW/Core/ModeMan/SearchTest.php",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Test/AbstractTestCase.php",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/ModeMan/Mongo/Helper/Json.php",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Test/Abstract.php",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Test/Mongo/DBOperation/InsertDB.php",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/ModeMan/ModelManager.php",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/ModeMan/Core/ModeMan.php",
+		"/iw/workspace/00886/devops/bin/mongo",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/ImageService.php",
+		"/iw/workspace/00886/portal_test/unit/microservice/impl/IW/MicroService/Address/GB/MicroServiceTestCase.php",
+		"/iw/workspace/00886/application/config/config_data/test/microservice_address_gb_find_address.yaml",
+		"/iw/workspace/00886/portal_test/unit/remoteapi/controllers/RestControllerTest.php",
+		"/iw/workspace/00886/portal/opensocial/controllers/RestController.php",
+		"/iw/workspace/00886/portal/remoteapi/controllers/RestController.php",
+		"/iw/workspace/00886/lib/ZF/actual/Zend/Controller/Action.php",
+		"/iw/workspace/00886/portal_test/unit/core/impl/IW/Core/Crypt/GnupgTest.php",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Crypt/Gnupg.php",
+		"/iw/workspace/00886/portal_test/unit/core/impl/IW/Core/ImageServiceTest.php",
+		"/iw/workspace/00886/portal_test/config/mysql/load-test-schema.sh",
+		"/iw/workspace/00886/application/config/config_data/test/main.yaml.php",
+		"/iw/workspace/00886/application/config/config_data/production/main.yaml.php",
+		"/iw/workspace/00886/application/config/config_data/development/main.yaml.php",
+		"/iw/workspace/00886/lib/pear/crypt_gpg/Crypt/GPG/Engine.php",
+		"/iw/workspace/00886/build/docker/application/etc/php7/conf.d/iw.ini",
+		"/iw/workspace/00886/build/docker/application/Dockerfile",
+		"/iw/workspace/00886/build/docker/.env",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Page/Dao.php",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506091974/SVN",
+		"/iw/workspace/00886/portal/user/impl/IW/User/Field/ProfileImageBusinessAssistant.php",
+		"/iw/workspace/00886/portal/user/impl/IW/User/Field/AbstractService.php",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/List/Enum/ListSortingOptions.php",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506082970/SVN",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/ModeMan/Mongo/Collection.php",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506078790/SVN",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506013833/SVN",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506013500/SVN",
+		"/iw/workspace/00886/devops/devTools/dumps/paf.sql.gz",
+		"/iw/workspace/00886/portal/core/public/index.php",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505995063/SVN",
+		"/iw/workspace/00886/lib/pear/html_css/HTML/CSS/Error.php",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505993835/SVN",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505993797/SVN",
+		"/iw/workspace/00886/portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/PrepareMappingTest.php",
+		"/iw/workspace/00886/portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/FindTagsTest.php",
+		"/iw/workspace/00886/portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/DeactivateDeletedTest.php",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505983465/SVN",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505923784/SVN",
+		"/iw/workspace/00886/scm-sshkit/config/project.conf.rb",
+		"/iw/workspace/00886/scm-sshkit/lib/iw/config.rb",
+		"/iw/workspace/00886/scm-sshkit/lib/iw/exceptions.rb",
+		"/iw/workspace/00886/scm-sshkit/Rakefile",
+		"/iw/workspace/00886/scm-sshkit/lib/rake/task.rb",
+		"/iw/workspace/00886/scm-sshkit/lib/iw/helper/cli.rb",
+		"/iw/workspace/00886/scm-sshkit/config/vagrant.conf.rb",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505915465/SVN",
+		"/iw/gateway.sh",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Utils/Url.php",
+		"/iw/workspace/00886/custom/demo-analyst/config/config_data/development/customer.yaml.php",
+		"/iw/workspace/00886/application/config/config_data/test/database.yaml.php",
+		"/iw/workspace/00886/node_modules/eslint-plugin-require-jsdoc/lib/rules/require-jsdoc.js",
+		"/iw/workspace/00886/package.json",
+		"/iw/workspace/00886/build/docker/application-dev/Dockerfile",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Test/Rest/AbstractTestCase.php",
+		"/iw/workspace/00886/application/include/login.inc.php",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Page/Service.php",
+		"/iw/workspace/00886/application/include/pagetop.php",
+		"/iw/workspace/00886/build/import-mysql.sh",
+		"/iw/workspace/00886/build/dbdownload-local.sh",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505911194/SVN",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505911186/SVN",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505903920/SVN",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505896650/SVN",
+		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505830063/SVN",
+		"/iw/workspace/00886/portal/remoteapi/impl/IW/Remoteapi/Rest/Enum/ContentType.php",
+		"/iw/workspace/00886/docker-compose-ci.yml",
+		"/iw/workspace/00886/devops/bin/phpunit",
+		"/iw/workspace/00886/devops/devTools/phpunit",
+		"/iw/workspace/00886/devops/holly/Dockerfile",
+		"/iw/workspace/00886/portal_test/unit/system/impl/IW/System/SSO/ServiceTest.php",
+		"/iw/workspace/00886/portal_test/unit/bds_fixtures.yaml",
+		"/iw/workspace/00886/portal/system/migrations/mysql/20170808100000_prj905_add_communication_column_on_profile_templates.php",
+		"/iw/workspace/00886/portal/system/migrations/mysql/20170801145000_prj905_rename_unused_column_on_user_to_email_delivery.php",
+		"/iw/workspace/00886/devops/bin/eslint",
+		"/iw/workspace/00886/devops/bin/eslint_file",
+		"/iw/workspace/00886/portal/core/impl/IW/Core/Utils.php",
+		"/iw/workspace/00886/devops/devTools/eslint_file",
+		"/iw/workspace/00886/devops/bin/phpcs",
+		"/iw/workspace/00886/devops/bin/fclient_build",
+		"/iw/workspace/00886/portal/core/views/helpers/DojoLoader.php",
+		"/iw/workspace/00886/devops/bin/checkstyle",
+		"/iw/workspace/00886/devops/bin/mongorestore",
+		"/iw/workspace/00886/portal_test/config/mysql/my.cfg"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 172.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"subject",
+			"Fixme",
+			"Commenting",
+			"Classes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "html/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1091,
+								1091
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 197.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								521,
+								521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 62.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".dockerignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/iw/workspace/esler/test/http-server.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/KivWeb/Request.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 347.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Dockerfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Dockerfile Syntax Highlighting/Syntaxes/Dockerfile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "phpcs.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/KivWeb/Router.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								677
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 129.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 60.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "kiv-web.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"/iw/bin/migration/20150826084000migrateworkflowezcnodes.php",
+				"portal/bin/impl/IW/Bin/Migration/20150826084000MigrateWorkflowEzcNodes.php"
+			],
+			[
+				"portal_test/unit/microservice/impl/iw/microservice/address/gb/microservicetestcase.php",
+				"portal_test/unit/microservice/impl/IW/MicroService/Address/GB/MicroServiceTestCase.php"
+			],
+			[
+				"pafsql",
+				"devops/devTools/dumps/paf.sql.gz"
+			],
+			[
+				"publicindex",
+				"portal/core/public/index.php"
+			],
+			[
+				"ore/bootstrap/helper.php",
+				"portal/core/impl/IW/Core/Bootstrap/Helper.php"
+			],
+			[
+				"mpl/iw/core/page/dao.php",
+				"portal/core/impl/IW/Core/Page/Dao.php"
+			],
+			[
+				"l_css/html/css/error.php",
+				"lib/pear/html_css/HTML/CSS/Error.php"
+			],
+			[
+				"validator/videotest.php",
+				"portal_test/unit/video/impl/IW/Video/Core/Validator/VideoTest.php"
+			],
+			[
+				"ocessing/processdatatest.php",
+				"portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/ProcessDataTest.php"
+			],
+			[
+				"cessing/preparemappingtest.php",
+				"portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/PrepareMappingTest.php"
+			],
+			[
+				"ommand/fileprocessing/findtagstest.php",
+				"portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/FindTagsTest.php"
+			],
+			[
+				"and/fileprocessing/deactivatedeletedtest.php",
+				"portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/DeactivateDeletedTest.php"
+			],
+			[
+				"systemde",
+				"portal/system/impl/IW/System/Debug.php"
+			],
+			[
+				"demoanaldatayaml",
+				"custom/demo-analyst/config/config_data/development/database.yaml.php"
+			],
+			[
+				"cation/include/search.php",
+				"application/include/search.php"
+			],
+			[
+				"fig/vagrant.conf.rb",
+				"scm-sshkit/config/vagrant.conf.rb"
+			],
+			[
+				"eslintreqjs",
+				"node_modules/eslint-plugin-require-jsdoc/lib/rules/require-jsdoc.js"
+			],
+			[
+				"application/include/pagetop.php",
+				"application/include/pagetop.php"
+			],
+			[
+				"application/include/login.inc.php",
+				"application/include/login.inc.php"
+			],
+			[
+				"ld/import-mysql.sh",
+				"build/import-mysql.sh"
+			],
+			[
+				"dbdownload-local.sh",
+				"build/dbdownload-local.sh"
+			],
+			[
+				"testdatabaseyaml",
+				"application/config/config_data/test/database.yaml.php"
+			],
+			[
+				"demoanalcustom",
+				"custom/demo-analyst/config/config_data/development/customer.yaml.php"
+			],
+			[
+				"bdsfix",
+				"portal_test/unit/bds_fixtures.yaml"
+			],
+			[
+				"phpunit",
+				"devops/devTools/phpunit"
+			],
+			[
+				"demoanalcustomyaml",
+				"custom/demo-analyst/config/config_data/development/customer.yaml.php"
+			],
+			[
+				"testdtabaseyaml",
+				"application/config/config_data/test/database.yaml.php"
+			],
+			[
+				"al/core/views/helpers/dojoloader.php",
+				"portal/core/views/helpers/DojoLoader.php"
+			],
+			[
+				"tal/core/impl/iw/core/notfoundexception.php",
+				"portal/core/impl/IW/Core/NotFoundException.php"
+			],
+			[
+				"rtal/core/impl/iw/core/layout/hook/jscore.php",
+				"portal/core/impl/IW/Core/Layout/Hook/JsCore.php"
+			],
+			[
+				"job",
+				"portal/matching/impl/IW/Matching/Job.php"
+			],
+			[
+				"ent/enumdevelgenerator.sh",
+				"build/fclient/enumDevelGenerator.sh"
+			],
+			[
+				"ld/fclient/build.sh",
+				"build/fclient/build.sh"
+			],
+			[
+				"bootstrap/abstractcontext.php",
+				"portal_test/behat/bootstrap/AbstractContext.php"
+			],
+			[
+				"nsocial/etc/xsd/",
+				"portal/opensocial/etc/xsd/opensocial/ixrs.xsd"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"docker",
+				"docker-compose.yml"
+			],
+			[
+				"jcrop/css/jquery.jcrop.min.css",
+				"lib/jquery/actual/jcrop/css/jquery.Jcrop.min.css"
+			],
+			[
+				"libr",
+				"portal/core/views/helpers/LibraryUrl.php"
+			],
+			[
+				"library",
+				"portal/core/views/helpers/LibraryUrl.php"
+			],
+			[
+				"afield/impl/iw/afield/core/helper/afcache.php",
+				"portal/afield/impl/IW/AField/Core/Helper/AFCache.php"
+			],
+			[
+				"mailalias",
+				"command/portalJobSpoolers/mailAliasSynchronizationJob.php"
+			],
+			[
+				"publicinde",
+				"portal/core/public/index.php"
+			],
+			[
+				"resouceurl",
+				"portal/core/views/helpers/ResourceUrl.php"
+			],
+			[
+				"demoanalcusyaml",
+				"custom/demo-analyst/config/config_data/development/customer.yaml.php"
+			],
+			[
+				"corepubliinde",
+				"portal/core/public/index.php"
+			],
+			[
+				"re/impl/iw/core/config/helper.php",
+				"portal/core/impl/IW/Core/Config/Helper.php"
+			],
+			[
+				"corepublicindex",
+				"portal/core/public/index.php"
+			],
+			[
+				"/core/uri/replaceservice.php",
+				"portal/core/impl/IW/Core/Uri/ReplaceService.php"
+			],
+			[
+				"e/mail/sending/helper/tracking.php",
+				"portal/core/impl/IW/Core/Mail/Sending/Helper/Tracking.php"
+			],
+			[
+				"portal/core/impl/iw/core/uri/crypt.php",
+				"portal/core/impl/IW/Core/Uri/Crypt.php"
+			],
+			[
+				"infradockerfile",
+				"devops/docker/images/infrastructure_7.0/Dockerfile"
+			],
+			[
+				"afcache",
+				"portal_test/unit/afield/impl/IW/AField/Core/Helper/AFCacheTest.php"
+			],
+			[
+				"teststora",
+				"application/config/config_data/test/storage.php"
+			],
+			[
+				"syncjob",
+				"portal/core/impl/IW/Core/MailAlias/SyncJob.php"
+			],
+			[
+				"iw/orgstr/core/service.php",
+				"portal/orgstr/impl/IW/OrgStr/Core/Service.php"
+			],
+			[
+				"impl/iw/core/authorization/contextdao.php",
+				"portal/core/impl/IW/Core/Authorization/ContextDao.php"
+			],
+			[
+				"applicationdockerfile",
+				"devops/docker/images/application_7.0/Dockerfile"
+			],
+			[
+				"publiindex",
+				"portal/core/public/index.php"
+			],
+			[
+				"poolrb",
+				"devops/holly/lib/iw/holly/worker/pool.rb"
+			],
+			[
+				"holly",
+				"devops/holly/lib/iw/holly.rb"
+			],
+			[
+				"query",
+				"scm-sshkit/tasks/db/query.rake"
+			],
+			[
+				"devops/devtools/scm",
+				"devops/devTools/scm"
+			],
+			[
+				"entrypoint",
+				"devops/holly/docker-entrypoint.sh"
+			],
+			[
+				"pdomysql",
+				"portal/core/impl/IW/Core/Db/Adapter/Pdo/Mysql.php"
+			],
+			[
+				"devops/docker/images/application",
+				"devops/docker/images/application/iw.ini"
+			],
+			[
+				"env.php",
+				"portal/core/public/env.php"
+			],
+			[
+				"corepublicin",
+				"portal/core/public/index.php"
+			],
+			[
+				"coreautoloader",
+				"portal/core/impl/IW/Core/Autoloader.php"
+			],
+			[
+				"soffic",
+				"devops/docker/images/application_7.0/soffice-wrapper"
+			],
+			[
+				"checksh",
+				"portal/system/etc/devops/check_php_env.sh"
+			],
+			[
+				"application70dock",
+				"devops/docker/images/application_7.0/Dockerfile"
+			],
+			[
+				"testdatayaml",
+				"application/config/config_data/test/database.yaml.php"
+			],
+			[
+				"configparser",
+				"portal/core/impl/IW/Core/Config/Parser.php"
+			],
+			[
+				"nfig/config.class.php",
+				"application/config/config.class.php"
+			],
+			[
+				"envphp",
+				"portal/core/public/env.php"
+			],
+			[
+				"core/config/config.ini",
+				"portal/core/config/config.ini"
+			],
+			[
+				"config/config.ini",
+				"custom/demo-analyst/config/config.ini"
+			],
+			[
+				"core/public/env.php",
+				"portal/core/public/env.php"
+			],
+			[
+				"iwcoreauto",
+				"portal/core/impl/IW/Core/Autoloader.php"
+			],
+			[
+				"autolegacy",
+				"portal/core/impl/IW/Core/AutoloaderLegacy.php"
+			],
+			[
+				"oauth/current/oauth.php",
+				"lib/oauth/current/OAuth.php"
+			],
+			[
+				"abstractcache",
+				"portal/core/impl/IW/Core/Cache/AbstractCache.php"
+			],
+			[
+				"coreutilstest",
+				"portal_test/unit/core/impl/IW/Core/UtilsTest.php"
+			],
+			[
+				"coreutils",
+				"portal/core/impl/IW/Core/Utils.php"
+			],
+			[
+				"utilarray",
+				"portal_test/unit/core/impl/IW/Core/Utils/ArrayTest.php"
+			],
+			[
+				"iwcorecon",
+				"portal/core/impl/IW/Core/Config.php"
+			],
+			[
+				"pl/iw/system/utils.php",
+				"portal/system/impl/IW/System/Utils.php"
+			],
+			[
+				"boot",
+				"portal/core/bootstrap.php"
+			],
+			[
+				"blic/env.php",
+				"portal/core/public/env.php"
+			],
+			[
+				"testpre",
+				"portal_test/TestPreload.php"
+			],
+			[
+				"corecache",
+				"portal/core/impl/IW/Core/Cache.php"
+			],
+			[
+				"illestate",
+				"portal/core/impl/IW/Core/IllegalStateException.php"
+			],
+			[
+				"coresotragephp",
+				"portal/core/impl/IW/Core/Storage.php"
+			],
+			[
+				"cacheadapter",
+				"portal/core/impl/IW/Core/Cache/Adapter.php"
+			],
+			[
+				"svnrej",
+				"portal/core/impl/IW/Core/Config/Helper.php.svnpatch.rej"
+			],
+			[
+				"app.php",
+				"portal/core/impl/IW/Core/Bootstrap/App.php"
+			],
+			[
+				"application/config/config_data/development/storage.php",
+				"application/config/config_data/development/storage.php.svnpatch.rej"
+			],
+			[
+				"stora",
+				"application/config/config_data/development/storage.php"
+			],
+			[
+				"application/config/config_data/development/cache.php",
+				"application/config/config_data/development/cache.php.svnpatch.rej"
+			],
+			[
+				"portal/core/impl/iw/core/config/helper.php",
+				"portal/core/impl/IW/Core/Config/Helper.php.svnpatch.rej"
+			],
+			[
+				"portal/core/impl/iw/core/storage.php",
+				"portal/core/impl/IW/Core/Storage.php.svnpatch.rej"
+			],
+			[
+				"portal/core/impl/iw/core/cache.php",
+				"portal/core/impl/IW/Core/Cache.php.svnpatch.rej"
+			],
+			[
+				"coreboots",
+				"portal/core/bootstrap.php"
+			],
+			[
+				"application/config/bootstrap.php",
+				"application/config/bootstrap.php"
+			],
+			[
+				"testapp",
+				"tests/MicroService/AppTest.php"
+			],
+			[
+				"service/data/wrapabletrait.php",
+				"src/MicroService/Data/WrapableTrait.php"
+			],
+			[
+				"apptest",
+				"tests/MicroService/AppTest.php"
+			],
+			[
+				"rc/config.php",
+				"src/Config.php"
+			],
+			[
+				"iner/ilegalstateexception.php",
+				"src/Container/IlegalStateException.php"
+			],
+			[
+				"src/container.php",
+				"src/Container.php"
+			],
+			[
+				"roservice/adapter.php",
+				"src/MicroService/Adapter.php"
+			],
+			[
+				"src/microservice/app.php",
+				"src/MicroService/App.php"
+			],
+			[
+				"rc/microservice/client.php",
+				"src/MicroService/Client.php"
+			],
+			[
+				"roservice/config.php",
+				"src/MicroService/Config.php"
+			],
+			[
+				"ce/data/envelope/resultid.php",
+				"src/MicroService/Data/Envelope/ResultId.php"
+			],
+			[
+				"ervice/data/wrapable.php",
+				"src/MicroService/Data/Wrapable.php"
+			],
+			[
+				"vice/discovery/defaultdiscovery.php",
+				"src/MicroService/Discovery/DefaultDiscovery.php"
+			],
+			[
+				"roservice/discovery.php",
+				"src/MicroService/Discovery.php"
+			],
+			[
+				"tion/servererrorexception.php",
+				"src/MicroService/Exception/ServerErrorException.php"
+			],
+			[
+				"roservice/exception.php",
+				"src/MicroService/Exception.php"
+			],
+			[
+				"iddleware/authenticate.php",
+				"src/MicroService/Middleware/Authenticate.php"
+			],
+			[
+				"ice/middleware/trace.php",
+				"src/MicroService/Middleware/Trace.php"
+			],
+			[
+				"service/promise/abstractpromise.php",
+				"src/MicroService/Promise/AbstractPromise.php"
+			],
+			[
+				"ice/promise/httppromise.php",
+				"src/MicroService/Promise/HttpPromise.php"
+			],
+			[
+				"ervice/promise/mockpromise.php",
+				"src/MicroService/Promise/MockPromise.php"
+			],
+			[
+				"ervice/request.php",
+				"src/MicroService/Request.php"
+			],
+			[
+				"icroservice/router/basic.php",
+				"src/MicroService/Router/Basic.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"trunk",
+				"/iw/workspace/trunk/trunk.sublime-project"
+			],
+			[
+				"900",
+				"/iw/workspace/00900/00900.sublime-project"
+			],
+			[
+				"TRUNJK",
+				"/iw/workspace/trunk/trunk.sublime-project"
+			],
+			[
+				"TRUNK",
+				"/iw/workspace/trunk/trunk.sublime-project"
+			],
+			[
+				"test",
+				"~/.sublime-projects/test.sublime-project"
+			],
+			[
+				"890",
+				"/iw/workspace/00890/00890.sublime-project"
+			],
+			[
+				"878",
+				"/iw/workspace/00878/00878.sublime-project"
+			],
+			[
+				"",
+				"/iw/workspace/trunk/trunk.sublime-project"
+			],
+			[
+				"turnk",
+				"/iw/workspace/trunk/trunk.sublime-project"
+			],
+			[
+				"exm",
+				"/iw/workspace/darwin/php-service-example/darwin-php-service-example.sublime-project"
+			],
+			[
+				"phpcs",
+				"/iw/workspace/darwin/phpcs/darwin-phpcs.sublime-workspace"
+			],
+			[
+				"scm",
+				"/iw/workspace/scm-sshkit/scm-sshkit.sublime-project"
+			],
+			[
+				"tr",
+				"/iw/workspace/trunk/trunk.sublime-project"
+			],
+			[
+				"trun",
+				"/iw/workspace/trunk/trunk.sublime-project"
+			],
+			[
+				"ssh",
+				"/iw/workspace/scm-sshkit/scm-sshkit.sublime-project"
+			],
+			[
+				"pro",
+				"/iw/workspace/production/production.sublime-project"
+			],
+			[
+				"807",
+				"/iw/workspace/00807/00807.sublime-project"
+			],
+			[
+				"80",
+				"/iw/workspace/00807/00807.sublime-project"
+			],
+			[
+				"te",
+				"/iw/workspace/test/test.sublime-project"
+			],
+			[
+				"727",
+				"/iw/workspace/00727/00727.sublime-project"
+			],
+			[
+				"dock",
+				"/iw/workspace/docker/docker.sublime-project"
+			],
+			[
+				"707",
+				"/iw/workspace/00727/00727.sublime-project"
+			],
+			[
+				"dar",
+				"/iw/workspace/darwin/darwin.sublime-project"
+			],
+			[
+				"ro",
+				"/iw/workspace/production/production.sublime-project"
+			],
+			[
+				"rodu",
+				"/iw/workspace/production/production.sublime-project"
+			],
+			[
+				"pof",
+				"/iw/workspace/pof_aggregator/pof_aggregator.sublime-project"
+			],
+			[
+				"pr",
+				"/iw/workspace/production/production.sublime-project"
+			],
+			[
+				"prod",
+				"/iw/workspace/production/production.sublime-project"
+			],
+			[
+				"gosp",
+				"/iw/workspace/gosp/gosp.sublime-project"
+			],
+			[
+				"docke",
+				"/iw/workspace/docker/docker.sublime-project"
+			],
+			[
+				"docker",
+				"/iw/workspace/docker/docker.sublime-project"
+			],
+			[
+				"produ",
+				"/iw/workspace/production/production.sublime-project"
+			],
+			[
+				"csm",
+				"/iw/workspace/scm-sshkit/scm-sshkit.sublime-project"
+			],
+			[
+				"34",
+				"/iw/workspace/34264/34264.sublime-project"
+			],
+			[
+				"790",
+				"/iw/workspace/00790/00790.sublime-project"
+			],
+			[
+				"kit",
+				"/iw/workspace/scm-sshkit/scm-sshkit.sublime-project"
+			],
+			[
+				"go",
+				"/iw/workspace/gosp/gosp.sublime-project"
+			],
+			[
+				"gos",
+				"/iw/workspace/gosp/gosp.sublime-project"
+			],
+			[
+				"32",
+				"/iw/workspace/32720/32720.sublime-workspace"
+			],
+			[
+				"3",
+				"/iw/workspace/32720/32720.sublime-workspace"
+			],
+			[
+				"doc",
+				"/iw/workspace/docker/docker.sublime-project"
+			],
+			[
+				"do",
+				"/iw/workspace/docker/docker.sublime-project"
+			],
+			[
+				"v7",
+				"/iw/workspace/v7.0/v7.0.sublime-project"
+			],
+			[
+				"sc",
+				"/iw/scm/scm.sublime-project"
+			],
+			[
+				"768",
+				"/iw/workspace/00768/00768.sublime-project"
+			],
+			[
+				"truin",
+				"/iw/workspace/trunk/trunk.sublime-project"
+			],
+			[
+				"78",
+				"/iw/workspace/00768/00768.sublime-project"
+			],
+			[
+				"agg",
+				"/iw/workspace/pof_aggregator/pof_aggregator.sublime-project"
+			],
+			[
+				"ree",
+				"/iw/workspace/reen-elab/reen-elab.sublime-project"
+			],
+			[
+				"reen",
+				"/iw/workspace/reen-elab/reen-elab.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "task",
+		"selected_items":
+		[
+			[
+				"task",
+				"Task"
+			],
+			[
+				"testRenderWithMultiPartFormDataAndIe9",
+				"testRenderWithMultiPartFormDataAndIe9"
+			],
+			[
+				"LibsodiumWrapper",
+				"LibsodiumWrapper"
+			],
+			[
+				"nicks",
+				"nicks="
+			],
+			[
+				"uuid",
+				"uuidV4"
+			],
+			[
+				"IW_Core_Bootstrap_Helper",
+				"IW_Core_Bootstrap_Helper"
+			],
+			[
+				"getMailAliasDataForJob",
+				"testGetMailAliasDataForJob"
+			],
+			[
+				"IW_Core_Views_Helper_ResourceUrl",
+				"IW_Core_Views_Helper_GetCustomerResourceUrl"
+			],
+			[
+				"Memory",
+				"Memory"
+			],
+			[
+				"load",
+				"load"
+			],
+			[
+				"IW_Core_Config_Helper",
+				"IW_Core_Config_HelperTest"
+			],
+			[
+				"getprope",
+				"getProperty"
+			],
+			[
+				"withCredentials",
+				"withCredentials"
+			],
+			[
+				"disco",
+				"Discovery"
+			],
+			[
+				"req",
+				"Request"
+			],
+			[
+				"wrap",
+				"Wrapable"
+			],
+			[
+				"jsonde",
+				"json_decode"
+			],
+			[
+				"testAuthRequestFail",
+				"testAuthRequestFail"
+			],
+			[
+				"reject",
+				"reject"
+			],
+			[
+				"uri",
+				"Uri"
+			],
+			[
+				"fail",
+				"fail"
+			],
+			[
+				"once",
+				"once"
+			],
+			[
+				"expected",
+				"getExpected"
+			],
+			[
+				"statusc",
+				"getStatusCode"
+			],
+			[
+				"badre",
+				"BadResponseException"
+			],
+			[
+				"response",
+				"Response"
+			],
+			[
+				"requestint",
+				"RequestInterface"
+			],
+			[
+				"then",
+				"then"
+			],
+			[
+				"request",
+				"Request"
+			],
+			[
+				"promise",
+				"promise"
+			],
+			[
+				"fulfiled",
+				"FulfilledPromise"
+			],
+			[
+				"async",
+				"sendAsync"
+			],
+			[
+				"settle",
+				"settle"
+			],
+			[
+				"Stream",
+				"Stream"
+			],
+			[
+				"json_decode",
+				"json_decode"
+			],
+			[
+				"getbod",
+				"getBody"
+			],
+			[
+				"IW_Core_Test_AbstractTestCase",
+				"IW_Core_Test_AbstractTestCase"
+			],
+			[
+				"backtrce",
+				"backtrace"
+			],
+			[
+				"backtra",
+				"getBacktrace"
+			],
+			[
+				"mailworker",
+				"IW_Core_MailAlias_Worker"
+			],
+			[
+				"getMenuItem",
+				"getMenuItem"
+			],
+			[
+				"IW_AField_Core_Service",
+				"IW_AField_Core_Service"
+			],
+			[
+				"Tests_Auth_OpenID_AX",
+				"Tests_Auth_OpenID_AX"
+			],
+			[
+				"_requireFieldsInc",
+				"_requireFieldsInc"
+			],
+			[
+				"IW_Workflow_Job_Service",
+				"IW_Workflow_Job_Service"
+			],
+			[
+				"IW_Import_Core_Plugin_AbstractImportAuthTest",
+				"IW_Import_Core_Plugin_AbstractImportAuthTest"
+			],
+			[
+				"showSecurityExceptionInfo",
+				"showSecurityExceptionInfo"
+			],
+			[
+				"getlangu",
+				"getLanguage"
+			],
+			[
+				"fclien",
+				"fClientBootstrap"
+			],
+			[
+				"IW_Core_File_Csv",
+				"IW_Core_File_CsvTest"
+			],
+			[
+				"getimageurl",
+				"get_image_url"
+			],
+			[
+				"iwcorered",
+				"IW_Core_Redis_Client"
+			],
+			[
+				"_replaceLinks",
+				"_replaceLinks"
+			],
+			[
+				"obtainShowlinkById",
+				"obtainShowlinkById"
+			],
+			[
+				"IW_Core_Worker_StateManager_Storage_Redis",
+				"IW_Core_Worker_StateManager_Storage_Redis"
+			],
+			[
+				"crepage",
+				"createPage"
+			],
+			[
+				"addSimpleData",
+				"addSimpleData"
+			],
+			[
+				"getImageurl",
+				"getImageUrl"
+			],
+			[
+				"isimage",
+				"isImage"
+			],
+			[
+				"getimagesize",
+				"getImageSize"
+			],
+			[
+				"getimagesi",
+				"getImageSize"
+			],
+			[
+				"getimurl",
+				"getImgUrl"
+			],
+			[
+				"testfilenameToRealpath",
+				"testFilenameToRealpath"
+			],
+			[
+				"mkdir",
+				"mkdir"
+			],
+			[
+				"realpath",
+				"filenameToRealpath"
+			],
+			[
+				"bild",
+				"bild"
+			],
+			[
+				"createurl",
+				"createUrl"
+			],
+			[
+				"mkdri",
+				"mkdirs"
+			],
+			[
+				"backtrace",
+				"getBacktrace"
+			],
+			[
+				"imgcache",
+				"ImgStreamCache"
+			],
+			[
+				"imgcach",
+				"IW_Core_Image_CacheTest"
+			],
+			[
+				"IW_Core_Test_Rest_AbstractTestCase",
+				"IW_Core_Test_Rest_AbstractTestCase"
+			],
+			[
+				"IW_Core_Redis_ClientAbstract",
+				"IW_Core_Redis_ClientAbstract"
+			],
+			[
+				"IW_User_Search_Enum_SearchFormat",
+				"IW_User_Search_Enum_SearchFormat"
+			],
+			[
+				"istoken",
+				"isTokenValid"
+			],
+			[
+				"gettoken",
+				"getToken"
+			],
+			[
+				"profiler",
+				"Profiler"
+			],
+			[
+				"IW_Core_File_Adapter_Memory",
+				"IW_Core_File_Adapter_MemoryTest"
+			],
+			[
+				"json",
+				"Json"
+			],
+			[
+				"IW_Workflow_Action_Abstract",
+				"IW_Workflow_Action_AbstractTest"
+			],
+			[
+				"senddire",
+				"sendDirect"
+			],
+			[
+				"IW_Workflow_Action_Core_SendMail",
+				"IW_Workflow_Action_Core_SendMail"
+			],
+			[
+				"config",
+				"Config"
+			],
+			[
+				"IW_Workflow_Trigger_Engine",
+				"IW_Workflow_Trigger_Engine"
+			],
+			[
+				"IW_Workflow_Core_Service",
+				"IW_Workflow_Core_ServiceTest"
+			],
+			[
+				"init",
+				"initDB"
+			],
+			[
+				"multiInsert",
+				"testMultiInsert"
+			],
+			[
+				"IW_User_Export_Worker",
+				"IW_User_Export_Worker"
+			],
+			[
+				"user export",
+				"IW_User_Export_Worker"
+			],
+			[
+				"unitssubtree",
+				"getOrgUnitsIdsSubTree"
+			],
+			[
+				"getorgtree",
+				"getOrganisationTree"
+			],
+			[
+				"findalluser",
+				"findAllUserIds"
+			],
+			[
+				"IW\\Core\\Attribute\\Entity\\DynamicEntity",
+				"IW\\Core\\Attribute\\Entity\\DynamicEntity"
+			],
+			[
+				"attrservice",
+				"IW_Core_Attributes_ServiceTest"
+			],
+			[
+				"atrrservice",
+				"IW_Article_Core_RSS_ServiceTest"
+			],
+			[
+				"extension",
+				"readExtension"
+			],
+			[
+				"upload",
+				"upload"
+			],
+			[
+				"zenddbex",
+				"Zend_Db_Exception"
+			],
+			[
+				"modin",
+				"mod_in"
+			],
+			[
+				"IW_Core_File_Attachment",
+				"IW_Core_File_Attachment"
+			],
+			[
+				"debug",
+				"Debug"
+			],
+			[
+				"mod_in",
+				"mod_in"
+			],
+			[
+				"IW_Core_Redis_Client",
+				"IW_Core_Redis_Client"
+			],
+			[
+				"IW_User_Integration_Worker",
+				"IW_User_Integration_Worker"
+			],
+			[
+				"imageser",
+				"IW_Core_ImageService"
+			],
+			[
+				"fulltext",
+				"fulltext"
+			],
+			[
+				"initdb",
+				"initDB"
+			],
+			[
+				"testgetCorrespondences",
+				"testGetCorrespondences"
+			],
+			[
+				"getCorrespondences",
+				"testGetCorrespondences"
+			],
+			[
+				"mongo",
+				"Mongo"
+			],
+			[
+				"IW_Core_SingletonTest",
+				"IW_Core_SingletonTest"
+			],
+			[
+				"_createfind",
+				"_createFindSelect"
+			],
+			[
+				"quoteinto",
+				"quoteInto"
+			],
+			[
+				"IW_Correspondence_Core_ServiceTest",
+				"IW_Correspondence_Core_ServiceTest"
+			],
+			[
+				"testGetRecipientsAndStatesForCorrespondendencesOneCecipient",
+				"testGetRecipientsAndStatesForCorrespondendencesOneCecipient"
+			],
+			[
+				"testGetCorrespondences",
+				"testGetCorrespondences"
+			],
+			[
+				"getMemberIdsOfOrgUnits",
+				"getMemberIdsOfOrgUnits"
+			],
+			[
+				"getbyuser",
+				"getByUserId"
+			],
+			[
+				"getuser",
+				"getUser"
+			],
+			[
+				"dosta",
+				"do_statistics"
+			],
+			[
+				"testGetCorrespondencesText",
+				"testGetCorrespondencesText"
+			],
+			[
+				"findrecent",
+				"findRecentActivities"
+			],
+			[
+				"findbyusername",
+				"findUsersByUsernames"
+			],
+			[
+				"findusername",
+				"findUsernames"
+			],
+			[
+				"finduse",
+				"findUsername"
+			],
+			[
+				"finduser",
+				"findUserIds"
+			],
+			[
+				"useridusername",
+				"getUserIdByUsername"
+			],
+			[
+				"getTokenValue",
+				"getTokenValue"
+			]
+		],
+		"width": 788.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

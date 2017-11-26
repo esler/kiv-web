@@ -3,6 +3,6 @@
     <file>src</file>
     <file>tests</file>
     <rule ref="Generic.Commenting"/>
-    <rule ref="PEAR.Commenting"/>
+    <rule ref="PEAR.Commenting.FunctionComment"/>
     <rule ref="PSR2"/>
 </ruleset>
