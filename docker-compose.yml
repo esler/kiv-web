@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  arminer:
+    image: adminer
+    ports:
+    - 8080:8080
+    volumes:
+    - ./data:/data

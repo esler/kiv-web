@@ -1,10 +1,6 @@
 <?php
 namespace Esler\KivWeb;
 
-use GuzzleHttp\Psr7\ServerRequest as Request;
-
-use Exception;
-
 /**
  * This class is responsible for routing incoming requests
  */
@@ -20,8 +16,9 @@ class Router
 
     public function dispatch(bool $enableMapping)
     {
+        $request = Request::fromGlobals();
+
         foreach ($this->routes as list($mapping, $handler)) {
-            $request  = Request::fromGlobals();
             $params   = $request->getQueryParams();
             $defaults = [];
 
@@ -66,6 +63,6 @@ class Router
             }
         }
 
-        throw new Exception('404');
+        throw new Exception\NotFound('No route found for: ' . $request->getUri()->getPath());
     }
 }

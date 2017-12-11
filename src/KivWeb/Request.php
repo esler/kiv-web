@@ -1,48 +1,47 @@
 <?php
 namespace Esler\KivWeb;
 
-use Esler\KivWeb\Utils\Immutable;
+use GuzzleHttp\Psr7\ServerRequest;
 
-class Request
+class Request extends ServerRequest
 {
-    use Immutable;
-
-    private $method;
-    private $params = [];
-    private $path;
-
-    public function __construct()
+    /**
+     * Return a Request populated with superglobals:
+     * $_GET
+     * $_POST
+     * $_COOKIE
+     * $_FILES
+     * $_SERVER
+     *
+     * @return Request
+     */
+    public static function fromGlobals(): Request
     {
-        $this->method = $_SERVER['REQUEST_METHOD'];
-        $this->path = $_SERVER['REQUEST_URI'];
-        $this->params = $_GET;
-    }
+        $parent = parent::fromGlobals();
 
-    public function getMethod(): string
-    {
-        return $this->method;
+        $request = new Request(
+            $parent->getMethod(),
+            $parent->getUri(),
+            $parent->getHeaders(),
+            $parent->getBody(),
+            $parent->getProtocolVersion(),
+            $parent->getServerParams()
+        );
+
+        return $request
+            ->withCookieParams($parent->getCookieParams())
+            ->withQueryParams($parent->getQueryParams())
+            ->withParsedBody($parent->getParsedBody())
+            ->withUploadedFiles($parent->getUploadedFiles());
     }
 
     public function getParam(string $param, $default = null)
     {
-        return $this->params[$param] ?? $default;
-    }
-
-
-    public function withMethod(string $method): Request
-    {
-        return $this->withProperty('method', $method);
+        return $this->getQueryParams()[$param] ?? $default;
     }
 
     public function withParam(string $param, $value): Request
     {
-        $new = clone $this;
-        $new->params[$param] = $value;
-        return $new;
-    }
-
-    public function getPath(): string
-    {
-        return $this->path;
+        return $this->withQueryParams([$param => $value] + $this->getQueryParams());
     }
 }
