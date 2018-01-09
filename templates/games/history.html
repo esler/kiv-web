@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+    {% set colors = ['primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light'] %}
+    <h1>Game play history</h1>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Homes</th>
+                <th scope="col">Score</th>
+                <th scope="col">Guests</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for game in games %}
+                <tr>
+                    <td>
+                        {% for user in game.homes %}
+                            {{ user.name }}
+                        {% endfor %}
+                    </td>
+                    <td>{{ game.score|join(':') }}</td>
+                    <td>
+                        {% for user in game.guests %}
+                            {{ user.name }}
+                        {% endfor %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

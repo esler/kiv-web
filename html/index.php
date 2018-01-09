@@ -19,6 +19,8 @@ $twig = new Twig_Environment($loader, [
     // 'cache' => realpath(__DIR__ . '/../cache/twig'),
 ]);
 
+session_start();
+
 $container = require $docroot . '/config/container.php';
 
 $view = new View($twig);
@@ -27,23 +29,5 @@ $front = new FrontController($container, $view);
 $router = new Router;
 $router->addRoute('/:control/:id/:action~read', $front);
 $router->addRoute('/:control~home/:action~list', $front);
-
-// routes
-// /                        /index.php
-// /users                   /index.php?page=users
-// /users/{id:int}          /index.php?page=users&id={:int}
-// /users/{id:int}/edit     /index.php?page=users&id={:int}&action=update GET/POST
-// /matches                 /index.php?page=matches
-// /{page:home}/{id}/{action:list}
-
-
-
-
-// $this->add('/', ); // return callback or null
-// $this->add('');
-// $this->add('');
-// $this->add('', )
-
-// var_dump($_SERVER);
 
 $router->dispatch(false);

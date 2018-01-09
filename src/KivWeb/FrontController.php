@@ -29,7 +29,8 @@ class FrontController
         }
 
         // build classname, eg. Esler\KivWev\Controller\UsersController
-        $classname = __NAMESPACE__ . '\\Controller\\' . ucfirst($request->getQueryParams()['control']);
+        $control = Utils::kebabCaseToCamelCase($request->getQueryParams()['control']);
+        $classname = __NAMESPACE__ . '\\Controller\\' . ucfirst($control);
 
         if (class_exists($classname)) {
             $controller = new $classname($this->container, $this->view);

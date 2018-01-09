@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+    {% if me %}
+        <h1>Enter new game</h1>
+        <form action="{{ request.uri }}" method="post">
+            {% for player in players %}
+                <h2>{{ player.label }}</h2>
+                <div class="form-group row">
+                    <div class="col-sm">
+                        {% include 'component/user-select.html' %}
+                    </div>
+                    <div class="col-sm">
+                        {% include 'component/post-select.html' %}
+                    </div>
+                    <div class="col-sm">
+                        {% include 'component/score-select.html' %}
+                    </div>
+                </div>
+            {% endfor %}
+            <!-- <div class="form-group row">
+                <div class="col">
+                    <input type="file" name="photo">
+                </div>
+            </div> -->
+            <div class="form-group row">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </form>
+    {% else %}
+        <div class="alert alert-warning" role="alert">Please login</div>
+    {% endif %}
+{% endblock %}

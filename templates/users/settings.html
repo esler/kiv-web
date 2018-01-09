@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+    {% if me %}
+        <h1>{{ me.name }}</h1>
+        <form action="{{ request.uri }}" method="post">
+            <div class="form-group row">
+                <div class="col">
+                    <button type="submit" name="logout" class="btn btn-primary">Logout</button>
+                </div>
+            </div>
+        </form>
+    {% else %}
+        <div class="alert alert-warning" role="alert">Please login</div>
+    {% endif %}
+{% endblock %}

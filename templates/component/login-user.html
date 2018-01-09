@@ -1,0 +1,5 @@
+{% if me %}
+    <a href="?control=users&action=settings" class="btn btn-link" style="float: right;">{{ me.name }}</a>
+{% else %}
+    <a href="?control=users&action=login" class="btn btn-link" style="float: right;">Login</a>
+{% endif %}

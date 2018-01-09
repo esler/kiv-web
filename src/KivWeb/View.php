@@ -12,18 +12,19 @@ class View
     public function __construct(Twig_Environment $twig)
     {
         $this->twig = $twig;
-        $this->template = $twig->load('default.html');
     }
 
     public function render(array $context): string
     {
-        return $this->template->render($context);
+        if ($this->template) {
+            return $this->twig->load($this->template)->render($context);
+        }
+
+        throw new Exception\ServerError('Cannot render without template');
     }
 
     public function setTemplate(string $control, string $action): void
     {
-        $filename = $control . '/' . $action . '.html';
-
-        $this->template = $this->twig->load($filename);
+        $this->template = $control . '/' . $action . '.html';
     }
 }

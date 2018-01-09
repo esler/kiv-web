@@ -1,0 +1,6 @@
+<select name="userId[]" class="form-control">
+    <option>Player…</option>
+    {% for user in users %}
+        <option value="{{ user.id }}">{{ user.name }}</option>
+    {% endfor %}
+</select>

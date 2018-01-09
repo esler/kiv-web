@@ -1,0 +1,6 @@
+<select name="score[]" class="form-control">
+    <option>…did score…</option>
+    {% for i in 0..10 %}
+        <option value="{{ i }}">{{ i }}</option>
+    {% endfor %}
+</select>

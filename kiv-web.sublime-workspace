@@ -4,6 +4,118 @@
 		"selected_items":
 		[
 			[
+				"Exe",
+				"execute"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"clas",
+				"class\tAttr"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"$user",
+				"$userId"
+			],
+			[
+				"fir",
+				"first_opponent"
+			],
+			[
+				"$game",
+				"$gameId"
+			],
+			[
+				"preg",
+				"preg_replace_callback"
+			],
+			[
+				"gettype",
+				"gettype"
+			],
+			[
+				"arra",
+				"array_map"
+			],
+			[
+				"$a",
+				"$array"
+			],
+			[
+				"$ca",
+				"$callback"
+			],
+			[
+				"ass",
+				"assertEquals"
+			],
+			[
+				"assee",
+				"assertEquals〔function〕"
+			],
+			[
+				"Tes",
+				"TestCase〔class〕"
+			],
+			[
+				"isint",
+				"is_int"
+			],
+			[
+				"proe",
+				"protected"
+			],
+			[
+				"iss",
+				"issetProperty"
+			],
+			[
+				"getty",
+				"gettype〔function〕"
+			],
+			[
+				"Contr",
+				"Container"
+			],
+			[
+				"if",
+				"ife\tif ... else"
+			],
+			[
+				"for",
+				"for.\tfor (block)"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"home",
+				"home_2"
+			],
+			[
+				"getRe",
+				"getRequest〔function〕"
+			],
+			[
+				"_",
+				"__isset〔function〕"
+			],
+			[
+				"prop",
+				"property_exists〔function〕"
+			],
+			[
 				"$re",
 				"$response"
 			],
@@ -62,10 +174,6 @@
 			[
 				"file",
 				"filename"
-			],
-			[
-				"_",
-				"_sshkit"
 			],
 			[
 				"print",
@@ -406,135 +514,141 @@
 			[
 				"getSta",
 				"getStatusCode"
-			],
-			[
-				"cre",
-				"createHttpRequest"
-			],
-			[
-				"json",
-				"json_encode"
-			],
-			[
-				"wa",
-				"waitForResponse"
-			],
-			[
-				"Htt",
-				"HttpClient"
-			],
-			[
-				"is_s",
-				"is_string"
-			],
-			[
-				"Uri",
-				"UriInterface"
-			],
-			[
-				"Pro",
-				"Promise"
-			],
-			[
-				"Promise",
-				"PromiseInterface"
-			],
-			[
-				"req",
-				"request"
-			],
-			[
-				"cal",
-				"callable"
-			],
-			[
-				"param",
-				"param1"
-			],
-			[
-				"is_a",
-				"is_array"
-			],
-			[
-				"str_re",
-				"str_replace"
-			],
-			[
-				"pre_ma",
-				"preg_match"
-			],
-			[
-				"getC",
-				"getClient"
-			],
-			[
-				"se",
-				"serialize"
-			],
-			[
-				"exe",
-				"execute"
-			],
-			[
-				"s",
-				"schema"
-			],
-			[
-				"dfa",
-				"default"
-			],
-			[
-				"ss",
-				"ssh"
-			],
-			[
-				"ssh",
-				"ssh-agent"
-			],
-			[
-				"demo",
-				"demo-analyst"
-			],
-			[
-				"ins",
-				"installed"
-			],
-			[
-				"par",
-				"parsed"
-			],
-			[
-				"ya",
-				"yaml"
-			],
-			[
-				"lo",
-				"load_file"
-			],
-			[
-				"yaml",
-				"yaml_file"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "<?php\nnamespace Esler\\KivWeb;\n\nuse GuzzleHttp\\Psr7\\ServerRequest as Request;\n\n// use default composer autoload\n$docroot = realpath(__DIR__ . '/..');\nif (file_exists($filename = __DIR__ . '/../vendor/autoload.php')) {\n    require_once $filename;\n} else {\n    trigger_error('Composer deps not installed, run composer install!', E_USER_ERROR);\n}\n\n$loader = new Twig_Loader_Filesystem('/path/to/templates');\n$twig = new Twig_Environment($loader, array(\n    'cache' => '/path/to/compilation_cache',\n));\n\n$view = new View;\n\n$router = new Router;\n$router->addRoute('/:control/:id/:action~read', [FrontController::class, 'dispatch']);\n$router->addRoute('/:control/:action~list', [FrontController::class, 'dispatch']);\n\n// routes\n// /                        /index.php\n// /users                   /index.php?page=users\n// /users/{id:int}          /index.php?page=users&id={:int}\n// /users/{id:int}/edit     /index.php?page=users&id={:int}&action=update GET/POST\n// /matches                 /index.php?page=matches\n// /{page:home}/{id}/{action:list}\n\n\n\n\n// $this->add('/', ); // return callback or null\n// $this->add('');\n// $this->add('');\n// $this->add('', )\n\n// var_dump($_SERVER);\n\n$router->dispatch(false);\n",
-			"file": "html/index.php",
-			"file_size": 989,
-			"file_write_time": 131562042686444188,
+			"file": "src/KivWeb/Controller/Games.php",
 			"settings":
 			{
-				"buffer_size": 1202,
+				"buffer_size": 2725,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/KivWeb/Router.php",
+			"file": "src/KivWeb/Model/Player.php",
 			"settings":
 			{
-				"buffer_size": 2237,
+				"buffer_size": 77,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/KivWeb/Model/Game.php",
+			"settings":
+			{
+				"buffer_size": 176,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/base.html",
+			"settings":
+			{
+				"buffer_size": 1736,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/KivWeb/Db/Collection.php",
+			"settings":
+			{
+				"buffer_size": 849,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/KivWeb/FrontController.php",
+			"settings":
+			{
+				"buffer_size": 1641,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/KivWeb/Controller/AbstractController.php",
+			"settings":
+			{
+				"buffer_size": 2141,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/KivWeb/Utils.php",
+			"settings":
+			{
+				"buffer_size": 720,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/KivWeb/Db.php",
+			"settings":
+			{
+				"buffer_size": 2159,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/index.php",
+			"settings":
+			{
+				"buffer_size": 1441,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/KivWeb/Twig/Function/Url.php",
+			"settings":
+			{
+				"buffer_size": 242,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/games/enter.html",
+			"settings":
+			{
+				"buffer_size": 899,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/games/enter/teammate.html",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "docker-compose.yml",
+			"settings":
+			{
+				"buffer_size": 208,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/.htaccess",
+			"settings":
+			{
+				"buffer_size": 142,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -547,64 +661,46 @@
 			}
 		},
 		{
-			"file": "/Users/esler/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
+			"file": "templates/component/post-select.html",
 			"settings":
 			{
-				"buffer_size": 225,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"file": "/Users/esler/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/esler/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 5421,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/users/list.html",
-			"settings":
-			{
-				"buffer_size": 336,
+				"buffer_size": 163,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/KivWeb/Controller/AbstractController.php",
+			"file": "templates/component/score-select.html",
 			"settings":
 			{
-				"buffer_size": 1600,
+				"buffer_size": 177,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/KivWeb/View.php",
+			"file": "templates/component/user-select.html",
 			"settings":
 			{
-				"buffer_size": 564,
+				"buffer_size": 191,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/KivWeb/Controller/Users.php",
+			"file": "templates/games/enter-teammate.html",
 			"settings":
 			{
-				"buffer_size": 129,
+				"buffer_size": 193,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/games/enter-opponent-front.html",
+			"settings":
+			{
+				"buffer_size": 201,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -617,25 +713,65 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 239.0,
-		"last_filter": "isntl",
+		"height": 227.0,
+		"last_filter": "dele",
 		"selected_items":
 		[
 			[
-				"isntl",
-				"Package Control: Install Package"
+				"dele",
+				"File: Delete"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"twi",
+				"Set Syntax: HTML (Twig)"
 			],
 			[
 				"dup",
 				"File: Duplicate"
 			],
 			[
+				"move",
+				"File: Move"
+			],
+			[
 				"new",
 				"File: New File Relative to Current View"
 			],
 			[
-				"move",
-				"File: Move"
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"cop",
+				"File: Copy Path"
+			],
+			[
+				"tw",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"isntl",
+				"Package Control: Install Package"
 			],
 			[
 				"delete",
@@ -648,14 +784,6 @@
 			[
 				"gett",
 				"Generate Getter for ..."
-			],
-			[
-				"dele",
-				"File: Delete"
-			],
-			[
-				"rename",
-				"File: Rename"
 			],
 			[
 				"ren",
@@ -680,10 +808,6 @@
 			[
 				"yaml",
 				"Pretty YAML: Reformat (Pretty Print) YAML"
-			],
-			[
-				"cop",
-				"File: Copy Path From Project"
 			],
 			[
 				"log",
@@ -716,10 +840,6 @@
 			[
 				"reso",
 				"SVN: (File) Resolve, Interactive…"
-			],
-			[
-				"du",
-				"File: Duplicate"
 			],
 			[
 				"bash",
@@ -774,16 +894,8 @@
 				"Pretty JSON: Format (Pretty Print) JSON"
 			],
 			[
-				"php",
-				"Set Syntax: PHP"
-			],
-			[
 				"xml",
 				"Snippet: XML Processing Instruction"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"remov",
@@ -796,10 +908,6 @@
 			[
 				"dete",
 				"File: Delete"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"linter",
@@ -872,10 +980,6 @@
 			[
 				"cpo",
 				"File: Copy Name"
-			],
-			[
-				"html",
-				"HTMLBeautify"
 			],
 			[
 				"hmtl",
@@ -1056,31 +1160,91 @@
 		"/iw/workspace/esler/kiv-web/html",
 		"/iw/workspace/esler/kiv-web/src",
 		"/iw/workspace/esler/kiv-web/src/KivWeb",
-		"/iw/workspace/esler/kiv-web/src/KivWeb/Exception"
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Controller",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Db",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Model",
+		"/iw/workspace/esler/kiv-web/templates",
+		"/iw/workspace/esler/kiv-web/templates/component",
+		"/iw/workspace/esler/kiv-web/templates/games",
+		"/iw/workspace/esler/kiv-web/templates/games/enter",
+		"/iw/workspace/esler/kiv-web/templates/home",
+		"/iw/workspace/esler/kiv-web/templates/users",
+		"/iw/workspace/esler/kiv-web/tests",
+		"/iw/workspace/esler/kiv-web/tests/KivWeb",
+		"/iw/workspace/esler/kiv-web/tests/KivWeb/Utils"
 	],
 	"file_history":
 	[
+		"/iw/workspace/esler/kiv-web/vendor/guzzlehttp/psr7/src/Request.php",
+		"/iw/workspace/esler/kiv-web/vendor/psr/http-message/src/RequestInterface.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Request.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/View.php",
+		"/iw/workspace/esler/kiv-web/templates/component/user-list.html",
+		"/iw/workspace/esler/kiv-web/templates/games/enter.html",
+		"/iw/workspace/esler/kiv-web/vendor/twig/twig/lib/Twig/Function.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Controller/AbstractController.php",
 		"/iw/workspace/esler/kiv-web/vendor/guzzlehttp/psr7/src/ServerRequest.php",
+		"/iw/workspace/esler/kiv-web/vendor/psr/http-message/src/UriInterface.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Db/Cursor.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Db.php",
+		"/iw/workspace/esler/kiv-web/vendor/guzzlehttp/psr7/src/MessageTrait.php",
+		"/iw/workspace/esler/kiv-web/vendor/guzzlehttp/psr7/src/Uri.php",
+		"/iw/workspace/esler/kiv-web/html/index.php",
+		"/iw/workspace/esler/kiv-web/config/container.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Container.php",
+		"/iw/workspace/esler/kiv-web/templates/base.html",
+		"/iw/workspace/esler/kiv-web/.gitignore",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Controller/Home.php",
+		"/iw/workspace/esler/kiv-web/templates/games/enter/teammate.html",
+		"/iw/workspace/esler/kiv-web/templates/games/enter/player.html",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Model/Game.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Model/Property/Id.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Utils/Enumerable.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Utils.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Controller/Games.php",
+		"/iw/workspace/esler/kiv-web/composer.json",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Model/User.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/functions.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Model/AbstractModel.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Model/AbstractModelComplex.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Exception/Authentication.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Exception/InvalidArgument.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Model/Property/AbstractProperty.php",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Model/Primitive/DateTime.php",
+		"/iw/workspace/esler/kiv-web/tests/KivWeb/FunctionsTest.php",
+		"/iw/workspace/esler/kiv-web/docker-compose.yml",
+		"/iw/workspace/esler/collection/functions.php",
+		"/iw/workspace/esler/collection/tests/FunctionsTest.php",
 		"/iw/workspace/esler/kiv-web/src/KivWeb/FrontController.php",
+		"/iw/workspace/esler/kiv-web/vendor/twig/twig/lib/Twig/Template.php",
+		"/iw/workspace/esler/kiv-web/templates/home/list.html",
+		"/iw/workspace/esler/kiv-web/templates/users/list.html",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Router.php",
+		"/iw/workspace/esler/kiv-web/templates/component/user-selector.html",
+		"/iw/workspace/esler/kiv-web/tests/KivWeb/Utils/EnumerableTest.php",
+		"/iw/workspace/esler/kiv-web/phpunit.xml",
+		"/iw/workspace/esler/kiv-web/vendor/phpunit/phpunit/src/Framework/TestCase.php",
+		"/iw/workspace/esler/kiv-web/data/db.sq3",
+		"/iw/workspace/esler/kiv-web/cache/twig/a0/a0afbaff2c534184b4c4ad66039e3725a6b3eeee7c7b2c92e68f0024146fce90.php",
+		"/iw/workspace/esler/kiv-web/vendor/twig/twig/lib/Twig/Environment.php",
+		"/iw/workspace/esler/kiv-web/phpcs.xml",
+		"/Users/esler/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
+		"/Users/esler/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/esler/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/iw/workspace/esler/kiv-web/templates/default.html",
+		"/iw/workspace/esler/kiv-web/src/KivWeb/Controller/Users.php",
+		"/iw/workspace/esler/kiv-web/cache/twig",
 		"/iw/workspace/esler/kiv-web/vendor/twig/twig/lib/Twig/Loader/Filesystem.php",
 		"/Users/esler/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/Default (OSX).sublime-mousemap",
-		"/iw/workspace/esler/kiv-web/vendor/twig/twig/lib/Twig/Environment.php",
 		"/iw/workspace/esler/kiv-web/vendor/twig/twig/lib/Twig/TemplateWrapper.php",
-		"/iw/workspace/esler/kiv-web/src/KivWeb/Router.php",
 		"/iw/workspace/esler/kiv-web/vendor/psr/http-message/src/MessageInterface.php",
 		"/iw/workspace/esler/kiv-web/src/KivWeb/Exception/AbstractException.php",
 		"/iw/workspace/esler/kiv-web/src/KivWeb/Exception/NotFound.php",
 		"/iw/workspace/esler/kiv-web/src/KivWeb/Exception/ServerError.php",
 		"/iw/workspace/esler/kiv-web/Dockerfile",
-		"/iw/workspace/esler/kiv-web/phpcs.xml",
-		"/iw/workspace/esler/kiv-web/src/KivWeb/Request.php",
 		"/iw/workspace/esler/kiv-web/.dockerignore",
 		"/iw/workspace/esler/test/http-server.php",
 		"/iw/workspace/esler/kiv-web/vendor/psr/http-message/src/ServerRequestInterface.php",
-		"/iw/workspace/esler/kiv-web/vendor/guzzlehttp/psr7/src/Request.php",
-		"/iw/workspace/esler/kiv-web/vendor/guzzlehttp/psr7/src/Uri.php",
-		"/iw/workspace/esler/kiv-web/vendor/guzzlehttp/psr7/src/MessageTrait.php",
-		"/iw/workspace/esler/kiv-web/composer.json",
 		"/iw/workspace/esler/kiv-web/src/KivWeb/Uri.php",
 		"/iw/workspace/esler/kiv-web/src/KivWeb/Utils/Immutable.php",
 		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506353358/SVN",
@@ -1138,66 +1302,18 @@
 		"/iw/workspace/00886/application/config/config_data/test/main.yaml.php",
 		"/iw/workspace/00886/application/config/config_data/production/main.yaml.php",
 		"/iw/workspace/00886/application/config/config_data/development/main.yaml.php",
-		"/iw/workspace/00886/lib/pear/crypt_gpg/Crypt/GPG/Engine.php",
-		"/iw/workspace/00886/build/docker/application/etc/php7/conf.d/iw.ini",
-		"/iw/workspace/00886/build/docker/application/Dockerfile",
-		"/iw/workspace/00886/build/docker/.env",
-		"/iw/workspace/00886/portal/core/impl/IW/Core/Page/Dao.php",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506091974/SVN",
-		"/iw/workspace/00886/portal/user/impl/IW/User/Field/ProfileImageBusinessAssistant.php",
-		"/iw/workspace/00886/portal/user/impl/IW/User/Field/AbstractService.php",
-		"/iw/workspace/00886/portal/core/impl/IW/Core/List/Enum/ListSortingOptions.php",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506082970/SVN",
-		"/iw/workspace/00886/portal/core/impl/IW/Core/ModeMan/Mongo/Collection.php",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506078790/SVN",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506013833/SVN",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1506013500/SVN",
-		"/iw/workspace/00886/devops/devTools/dumps/paf.sql.gz",
-		"/iw/workspace/00886/portal/core/public/index.php",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505995063/SVN",
-		"/iw/workspace/00886/lib/pear/html_css/HTML/CSS/Error.php",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505993835/SVN",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505993797/SVN",
-		"/iw/workspace/00886/portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/PrepareMappingTest.php",
-		"/iw/workspace/00886/portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/FindTagsTest.php",
-		"/iw/workspace/00886/portal_test/unit/integration/impl/IW/Integration/Mdm/Command/FileProcessing/DeactivateDeletedTest.php",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505983465/SVN",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505923784/SVN",
-		"/iw/workspace/00886/scm-sshkit/config/project.conf.rb",
-		"/iw/workspace/00886/scm-sshkit/lib/iw/config.rb",
-		"/iw/workspace/00886/scm-sshkit/lib/iw/exceptions.rb",
-		"/iw/workspace/00886/scm-sshkit/Rakefile",
-		"/iw/workspace/00886/scm-sshkit/lib/rake/task.rb",
-		"/iw/workspace/00886/scm-sshkit/lib/iw/helper/cli.rb",
-		"/iw/workspace/00886/scm-sshkit/config/vagrant.conf.rb",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505915465/SVN",
-		"/iw/gateway.sh",
-		"/iw/workspace/00886/portal/core/impl/IW/Core/Utils/Url.php",
-		"/iw/workspace/00886/custom/demo-analyst/config/config_data/development/customer.yaml.php",
-		"/iw/workspace/00886/application/config/config_data/test/database.yaml.php",
-		"/iw/workspace/00886/node_modules/eslint-plugin-require-jsdoc/lib/rules/require-jsdoc.js",
-		"/iw/workspace/00886/package.json",
-		"/iw/workspace/00886/build/docker/application-dev/Dockerfile",
-		"/iw/workspace/00886/portal/core/impl/IW/Core/Test/Rest/AbstractTestCase.php",
-		"/iw/workspace/00886/application/include/login.inc.php",
-		"/iw/workspace/00886/portal/core/impl/IW/Core/Page/Service.php",
-		"/iw/workspace/00886/application/include/pagetop.php",
-		"/iw/workspace/00886/build/import-mysql.sh",
-		"/iw/workspace/00886/build/dbdownload-local.sh",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505911194/SVN",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505911186/SVN",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505903920/SVN",
-		"/var/folders/xn/4w3rf68n3sqc1wmzhdgpx8640000gn/T/sublime-svn-1505896650/SVN"
+		"/iw/workspace/00886/lib/pear/crypt_gpg/Crypt/GPG/Engine.php"
 	],
 	"find":
 	{
-		"height": 44.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
 		"height": 124.0,
 		"where_history":
 		[
+			"/iw/workspace/esler/kiv-web/vendor/guzzlehttp/psr7/src",
 			"/iw/workspace/esler/kiv-web",
 			""
 		]
@@ -1207,6 +1323,46 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"PUT",
+			"put",
+			"Cursor",
+			"teammate",
+			"callback",
+			"withQueryParams",
+			"queryParams",
+			"}\n",
+			"void",
+			"protected",
+			"private",
+			"Closure",
+			");\n",
+			"public",
+			"mapTo",
+			"$data",
+			"arr1",
+			"actual",
+			"$initial",
+			"integer",
+			"stamp",
+			"$property",
+			"$name",
+			"guest_1",
+			"$version",
+			"$serverParams",
+			"$protocol",
+			"$body",
+			"col-lg-6",
+			"Lukáš",
+			"Pepa",
+			"Hofi",
+			"property_exists",
+			"0",
+			"render",
+			"template",
+			"$request",
+			"$method",
+			"$twig",
+			"twig",
 			"Request",
 			"htlm",
 			"action",
@@ -1254,54 +1410,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "html/index.php",
+					"file": "src/KivWeb/Controller/Games.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1202,
+						"buffer_size": 2725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								65,
-								65
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/KivWeb/Router.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								483,
-								483
+								571,
+								571
 							]
 						],
 						"settings":
@@ -1311,14 +1437,438 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 223.0,
+						"translation.y": 263.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/KivWeb/Model/Player.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 77,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/KivWeb/Model/Game.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								812,
+								812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/KivWeb/Db/Collection.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/KivWeb/FrontController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 188.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/KivWeb/Controller/AbstractController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1542,
+								1542
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 678.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/KivWeb/Utils.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								487,
+								507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/KivWeb/Db.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							],
+							[
+								626,
+								626
+							],
+							[
+								662,
+								662
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 524.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "html/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/KivWeb/Twig/Function/Url.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "templates/games/enter.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								656,
+								656
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 131.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 12,
+					"file": "templates/games/enter/teammate.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "docker-compose.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "html/.htaccess",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/ApacheConf.tmLanguage/ApacheConf.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
 					"file": "vendor/guzzlehttp/psr7/src/ServerRequest.php",
 					"semi_transient": false,
 					"settings":
@@ -1330,8 +1880,8 @@
 						"selection":
 						[
 							[
-								866,
-								866
+								898,
+								898
 							]
 						],
 						"settings":
@@ -1341,194 +1891,134 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 81.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/esler/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 225,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/esler/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/esler/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5421,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5169,
-								5126
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1463.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "templates/users/list.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 336,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								336,
-								336
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 323.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "src/KivWeb/Controller/AbstractController.php",
+					"buffer": 16,
+					"file": "templates/component/post-select.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1600,
+						"buffer_size": 163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								363,
-								275
+								63,
+								63
 							]
 						],
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "src/KivWeb/View.php",
+					"buffer": 17,
+					"file": "templates/component/score-select.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 564,
+						"buffer_size": 177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								60,
-								64
+								166,
+								166
 							]
 						],
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "src/KivWeb/Controller/Users.php",
+					"buffer": 18,
+					"file": "templates/component/user-select.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 129,
+						"buffer_size": 191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "templates/games/enter-teammate.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								137
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "templates/games/enter-opponent-front.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 201,
 						"regions":
 						{
 						},
@@ -1542,15 +2032,13 @@
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 13,
 					"type": "text"
 				}
 			]
@@ -1558,7 +2046,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 44.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -1573,6 +2061,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -1583,6 +2077,7 @@
 		"rows":
 		[
 			0.0,
+			0.598259264003,
 			1.0
 		]
 	},
@@ -1611,7 +2106,7 @@
 	"project": "kiv-web.sublime-project",
 	"replace":
 	{
-		"height": 84.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1620,6 +2115,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"web/model/game.php",
+				"src/KivWeb/Model/Game.php"
+			],
+			[
+				"enum",
+				"src/KivWeb/Utils/Enumerable.php"
+			],
+			[
+				"server",
+				"vendor/guzzlehttp/psr7/src/ServerRequest.php"
+			],
 			[
 				"/iw/bin/migration/20150826084000migrateworkflowezcnodes.php",
 				"portal/bin/impl/IW/Bin/Migration/20150826084000MigrateWorkflowEzcNodes.php"
@@ -2119,18 +2626,6 @@
 			[
 				"ice/promise/httppromise.php",
 				"src/MicroService/Promise/HttpPromise.php"
-			],
-			[
-				"ervice/promise/mockpromise.php",
-				"src/MicroService/Promise/MockPromise.php"
-			],
-			[
-				"ervice/request.php",
-				"src/MicroService/Request.php"
-			],
-			[
-				"icroservice/router/basic.php",
-				"src/MicroService/Router/Basic.php"
 			]
 		],
 		"width": 0.0
@@ -2138,7 +2633,7 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "886",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -2350,10 +2845,30 @@
 	},
 	"select_symbol":
 	{
-		"height": 29.0,
-		"last_filter": "",
+		"height": 340.0,
+		"last_filter": "requ",
 		"selected_items":
 		[
+			[
+				"requ",
+				"Request"
+			],
+			[
+				"Twig_Function",
+				"Twig_Function"
+			],
+			[
+				"server",
+				"ServerRequest"
+			],
+			[
+				"uri",
+				"Uri"
+			],
+			[
+				"testcase",
+				"TestCase"
+			],
 			[
 				"renderBlock",
 				"renderBlock"
@@ -2433,10 +2948,6 @@
 			[
 				"reject",
 				"reject"
-			],
-			[
-				"uri",
-				"Uri"
 			],
 			[
 				"fail",
@@ -2849,22 +3360,6 @@
 			[
 				"findbyusername",
 				"findUsersByUsernames"
-			],
-			[
-				"findusername",
-				"findUsernames"
-			],
-			[
-				"finduse",
-				"findUsername"
-			],
-			[
-				"finduser",
-				"findUserIds"
-			],
-			[
-				"useridusername",
-				"getUserIdByUsername"
 			]
 		],
 		"width": 740.0

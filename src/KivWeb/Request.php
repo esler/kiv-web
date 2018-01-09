@@ -37,7 +37,7 @@ class Request extends ServerRequest
 
     public function getParam(string $param, $default = null)
     {
-        return $this->getQueryParams()[$param] ?? $default;
+        return $this->getQueryParams()[$param] ?? $this->getParsedBody()[$param] ?? $default;
     }
 
     public function withParam(string $param, $value): Request

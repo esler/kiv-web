@@ -1,6 +1,8 @@
 <?php
 namespace Esler\KivWeb;
 
+use Closure;
+
 class Container
 {
     private $factories = [];
@@ -14,7 +16,7 @@ class Container
         }
     }
 
-    protected function addFactory(string $id, callable $factory): void
+    protected function addFactory(string $id, Closure $factory): void
     {
         $this->factories[$id] = $factory;
     }
@@ -25,7 +27,7 @@ class Container
             return $this->instances[$id];
         } elseif (isset($this->factories[$id])) {
             $factory = $this->factories[$id];
-            return $this->instances[$id] = $factory();
+            return $this->instances[$id] = $factory->call($this);
         }
 
         throw new Exception\ServerError("Unknown service: " . $id);

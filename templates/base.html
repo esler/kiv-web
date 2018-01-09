@@ -9,15 +9,21 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     </head>
     <body>
-        <!-- <div class="container"> -->
-            <nav class="navbar fixed-bottom navbar-light bg-light">
-                <a class="navbar-brand" href="#">[RESERVED]</a>
-                <a class="navbar-brand" href="#">History</a>
-                <a class="navbar-brand" href="?control=game&action=enter">Enter</a>
-            </nav>
-            <!-- main content of the page -->
-            <div id="content">{% block content %}{% endblock %}</div>
-        <!-- </div> -->
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+            <a class="navbar-brand" href="?control=users&action=rankings">Rankings</a>
+            <a class="navbar-brand" href="?control=games&action=history">History</a>
+            <a class="navbar-brand" href="?control=games&action=enter">Enter</a>
+        </nav>
+        <!-- login user box -->
+        {% include 'component/login-user.html' %}
+        <!-- main content of the page -->
+        <div id="content">
+            <div class="container">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+        <!-- make sure that navbar don't overlapping content -->
+        <div style="height:100px;"></div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

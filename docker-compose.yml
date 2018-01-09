@@ -1,8 +1,12 @@
 version: '3.4'
 services:
-  arminer:
+  adminer:
     image: adminer
     ports:
-    - 8080:8080
-    volumes:
-    - ./data:/data
+    - 127.0.0.1:8080:8080
+  mysql:
+    image: mysql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+    ports:
+    - 127.0.0.1:3306:3306

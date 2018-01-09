@@ -2,55 +2,65 @@
 namespace Esler\KivWeb\Controller;
 
 use Esler\KivWeb\Db;
+use Esler\KivWeb\Db\Collection;
 use Esler\KivWeb\Model\Game;
+use Esler\KivWeb\Model\Player;
 use Esler\KivWeb\Model\User;
 
 class Games extends AbstractController
 {
-    const ENTER_PHASES = [
-        'teammate' => ['caption' => 'Teammate'],
-        'first_opponent' => ['caption' => 'First opponent'],
-        'second_opponent',
-        'team_score',
-        'opponent_score',
+
+    const PLAYERS = [
+        ['label' => 'Me', 'side' => 'home'],
+        ['label' => 'My teammate', 'side' => 'home'],
+        ['label' => '1st opponent', 'side' => 'guest'],
+        ['label' => '2nd opponent', 'side' => 'guest'],
     ];
 
+    /**
+     * Entrypoint games/enter
+     *
+     * @return void
+     */
     public function actionEnter()
     {
         $db = $this->get('db');
 
-        $game = $db->save(new Game);
+        if ($this->getRequest()->getMethod() == 'POST') {
+            $game = new Game(['ownerId' => $this->get('me')->id]);
+            $db->save($game);
 
-
-
-        $users = $db->find(User::class);
-        $phase =
-
-
-        // $players = [
-        //     'home_1' => $this->popUser($users, $this->getRequest()->getParam('home_1')),
-        //     'home_2' => $this->popUser($users, $this->getRequest()->getParam('home_2')),
-        //     'guest_1' => $this->popUser($users, $this->getRequest()->getParam('guest_1')),
-        //     'guest_2' => $this->popUser($users, $this->getRequest()->getParam('guest_2')),
-        // ];
-
-        $this->render(['users' => $users, 'phase' => $players]);
-    }
-
-    public function actionEnterTeammate() {
-        $db = new Db;
-        $users = $db->find(User::class);
-    }
-
-    private function popUser(array &$users, int $id = null): ?User
-    {
-        foreach ($users as $i => $user) {
-            if ($user->id == $id) {
-                unset($users[$i]);
-                return $user;
+            foreach (self::PLAYERS as $id => $player) {
+                $db->save(new Player([
+                    'post'   => $this->getRequest()->getParam('post')[$id],
+                    'side'   => $player['side'],
+                    'userId' => $this->getRequest()->getParam('userId')[$id],
+                    'gameId' => $game->id,
+                    'scored' => $this->getRequest()->getParam('score')[$id],
+                ]));
             }
-        }
 
-        return null;
+            return $this->redirect('/?control=games&action=history');
+        } else {
+            $this->render([
+                'players' => self::PLAYERS,
+                'users' => $db->find(User::class),
+            ]);
+        }
+    }
+
+    /**
+     * Entrypoint games/history
+     *
+     * @return void
+     */
+    public function actionHistory()
+    {
+        $games = $this->get('db')->find(Game::class)
+            ->orderBy('stamp', false);
+
+        $this->render([
+            'games'  => $games,
+        ]);
     }
 }
