@@ -9,11 +9,24 @@ class Db
 {
     private $pdo;
 
+    /**
+     * Constructor
+     *
+     * @param PDO $pdo instance of PDO
+     */
     public function __construct(PDO $pdo)
     {
         $this->pdo = $pdo;
     }
 
+    /**
+     * Gets one model by its ID
+     *
+     * @param string $model classname of model
+     * @param int    $id    ID of model
+     *
+     * @return Model
+     */
     public function get(string $model, int $id): Model
     {
         $table = $this->resolveTableName($model);
@@ -25,16 +38,35 @@ class Db
         return $this->arrayToModel($stmt->fetch(), $model);
     }
 
+    /**
+     * Returns a collection of models which can be filtered
+     *
+     * @param string $model classname of model
+     *
+     * @return Collection
+     */
     public function find(string $model): Collection
     {
         return new Collection($this, $model);
     }
 
+    /**
+     * Instance of internal PDO
+     *
+     * @return PDO
+     */
     public function pdo(): PDO
     {
         return $this->pdo;
     }
 
+    /**
+     * Saves given model
+     *
+     * @param Model $model instance of model
+     *
+     * @return void
+     */
     public function save(Model $model): void
     {
         $table = $this->resolveTableName($model);
@@ -50,11 +82,26 @@ class Db
         $model->id = (int) $this->pdo->lastInsertId();
     }
 
+    /**
+     * Converts array (from DB) to a model
+     *
+     * @param array  $array array to convert
+     * @param string $model classname of model
+     *
+     * @return Model
+     */
     public function arrayToModel(array $array, string $model): Model
     {
         return new $model($array);
     }
 
+    /**
+     * Returns name of table by given classname or instance of model
+     *
+     * @param mixed $modelOrClass model or class
+     *
+     * @return string
+     */
     public function resolveTableName($modelOrClass): string
     {
         $class = is_object($modelOrClass) ? get_class($modelOrClass) : $modelOrClass;

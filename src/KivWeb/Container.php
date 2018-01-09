@@ -6,9 +6,13 @@ use Closure;
 class Container
 {
     private $factories = [];
-
     private $instances = [];
 
+    /**
+     * Constructor
+     *
+     * @param array $factories factories for creating singletons
+     */
     public function __construct(array $factories)
     {
         foreach ($factories as $id => $factory) {
@@ -16,11 +20,24 @@ class Container
         }
     }
 
+    /**
+     * Adds a factory
+     *
+     * @param string  $id      an ID
+     * @param Closure $factory a factory
+     */
     protected function addFactory(string $id, Closure $factory): void
     {
         $this->factories[$id] = $factory;
     }
 
+    /**
+     * Returns a singleton by given ID
+     *
+     * @param string $id an ID
+     *
+     * @return mixed
+     */
     public function get(string $id)
     {
         if (isset($this->instances[$id])) {
