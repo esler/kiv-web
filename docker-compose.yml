@@ -1,12 +1,27 @@
-version: '3.4'
+version: '3.2'
 services:
+  apache:
+    build: .
+    env_file:
+    - config/mysql.env
+    ports:
+    - 127.0.0.1:8000:80
+    # uncomment following lines for development
+    # volumes:
+    # - type: bind
+    #   source: .
+    #   target: /var/www
+    depends_on:
+    - mysql
+  mysql:
+    image: mysql:5.7
+    env_file: config/mysql.env
+    # see https://hub.docker.com/_/mysql/
+    volumes:
+      - ./data/kiv_web.sql:/docker-entrypoint-initdb.d/kiv_web.sql
   adminer:
-    image: adminer
+    image: adminer # official image is OK
     ports:
     - 127.0.0.1:8080:8080
-  mysql:
-    image: mysql
-    environment:
-      MYSQL_ALLOW_EMPTY_PASSWORD: 1
-    ports:
-    - 127.0.0.1:3306:3306
+    depends_on:
+    - mysql

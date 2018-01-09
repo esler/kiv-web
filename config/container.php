@@ -7,7 +7,12 @@ use Esler\KivWeb\Model\User;
 return new Container(
     [
         'db' => function () {
-            $pdo = new PDO('mysql:dbname=kiv_web;host=127.0.0.1;charset=utf8mb4', 'root', '');
+            $host = getenv('MYSQL_HOST');
+            $user = getenv('MYSQL_USER');
+            $password = getenv('MYSQL_PASSWORD');
+            $dbname = getenv('MYSQL_DATABASE');
+
+            $pdo = new PDO("mysql:dbname=$dbname;host=$host;charset=utf8mb4", $user, $password);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
             return new Db($pdo);

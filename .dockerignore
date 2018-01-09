@@ -1,4 +1,8 @@
 *
-!src
+!cache
+cache/*
+!config
 !html
+!src
+!templates
 !composer.*
